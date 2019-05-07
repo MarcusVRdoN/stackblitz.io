@@ -1,0 +1,9 @@
+body {
+  background-image: linear-gradient(#f4f4f4, #ddd);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+h1, h2 {
+  font-family: Lato;
+}
