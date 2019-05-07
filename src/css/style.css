@@ -1,0 +1,151 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+}
+
+html {
+  font-size: 18px;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  position: relative;
+  background-color: #fff;
+  min-height: 100vh;
+  font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  color: #808080;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#download {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#rodape {
+  padding-top: 90px;
+}
+
+.c-main {
+  padding: 30px 15px 60px 15px;
+}
+
+.c-main__container {
+  max-width: 700px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.c-main__row {
+  margin: 0 -15px;
+}
+
+.c-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.c-text {
+  font-size: 1.4rem;
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+.c-buttons {
+  text-align: right;
+}
+
+.q-list {
+  border: none;
+  padding: 1em 0;
+  margin-bottom: 1em;
+}
+
+.q-btn {
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.q-if {
+  font-size: 1.4rem;
+  outline: 0;
+}
+
+.q-if-standard.q-if-has-label {
+  padding-top: 40px;
+}
+
+:not(textarea).q-input-target {
+  height: 50px !important;
+}
+
+.q-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.q-item {
+  background-color: rgba(0, 0, 0, 0.06);
+  padding: 13px 15px;
+  margin-bottom: 8px;
+}
+
+.q-list.no-border .q-item {
+  background-color: transparent;
+  padding: 13px 15px;
+  margin-bottom: 8px;
+}
+
+.q-item:hover {
+  background-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.q-list.no-border .q-item:hover {
+  background-color: inherit;
+}
+
+.q-checkbox-icon {
+  font-size: 26px !important;
+  color: #9b9b9b;
+  margin-top: -9px;
+}
+
+.q-checkbox-icon.absolute-full {
+  color: #027be3;
+}
